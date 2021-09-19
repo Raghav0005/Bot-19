@@ -1,6 +1,8 @@
 import discord
 import os
 import time
+import asyncio
+import io
 import discord.ext
 from discord.utils import get
 from discord.ext import commands, tasks
@@ -8,6 +10,9 @@ from discord.ext.commands import has_permissions, CheckFailure, check
 import random
 from datetime import datetime
 import requests
+
+# Other python files:
+import graph
 
 #^ basic imports for other features of discord.py and python ^
 
@@ -42,20 +47,15 @@ async def hello(ctx):
 async def clear(ctx, amount=5):
     await ctx.channel.purge(limit=amount)
 
-
 @client.command()
-async def joke(ctx):
-    randomANS = [
-        "Q: Why was the math teacher late to work?She took the rhombus!",
-        "Q: Why can't you trust an atom? Because they make up everything!",
-        "Q: Why did the can crusher quit his job? Because it was soda pressing!",
-        "Q: What did Winnie the Pooh say to his agent? He said 'Show me the honey!'",
-        "Q: Have you heard of the band 923 Megabytes? Probably not, they haven't had a gig yet.",
-        "Q: What did the duck say when she bought a lipstick? Put it on my bill!"
-    ]
-    text = randomANS[random.randint(0, 5)]
-    await ctx.send(text)
+async def graph(ctx):  # world stats, will work on other ones after this
+    embed = discord.Embed(title="World Comparitive Statistics Graph",
+                          color=0x552E12)
 
+    g = discord.File("img.jpg")
+    embed.set_image(url="attachment://img.jpg")
+
+    await ctx.send(embed=embed, file=g)
 
 @client.command()
 async def facts(ctx):

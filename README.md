@@ -6,7 +6,7 @@ Hack the North 2021 Project
 
 <img width="482" alt="Screen Shot 2023-02-19 at 12 08 15 PM" src="https://user-images.githubusercontent.com/58956834/219963279-b907e303-5e16-4432-8fef-f6aca7ad5ab9.png">
 
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/58956834/219963337-7d7e91fc-275c-4709-a9de-d5baba1065ed.png">
+<img width="471" alt="Screen Shot 2023-02-19 at 12 09 19 PM" src="https://user-images.githubusercontent.com/58956834/219963402-acdca49e-e13b-44f8-b9db-cfb2fca0a658.png">
 
 ## Inspiration: 
   Moving from discord to a web browser could be annoy and costs time. Especially if you have very little time.

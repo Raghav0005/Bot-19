@@ -1,6 +1,13 @@
 # Bot-19
 Hack the North 2021 Project
 
+## Some Pictures:
+<img width="880" alt="Screen Shot 2023-02-19 at 12 04 23 PM" src="https://user-images.githubusercontent.com/58956834/219963165-9b627c8b-b7ca-4721-a191-09e5f9cf4ee0.png">
+
+<img width="482" alt="Screen Shot 2023-02-19 at 12 08 15 PM" src="https://user-images.githubusercontent.com/58956834/219963279-b907e303-5e16-4432-8fef-f6aca7ad5ab9.png">
+
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/58956834/219963337-7d7e91fc-275c-4709-a9de-d5baba1065ed.png">
+
 ## Inspiration: 
   Moving from discord to a web browser could be annoy and costs time. Especially if you have very little time.
   We wanted to create something that could provide important information fast without the need of opening a web-browser or 
